@@ -1,0 +1,256 @@
+.search-box {
+    transform: translate(-50%, -50%);
+    background: #FBDB14;
+    border-radius: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.search-box:hover>.search_txt {
+    width: 200px;
+}
+
+.search_btn {
+    background: #FBDB14;
+    color: white;
+    float: rigth;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    padding-left: 10px;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.nav_pagination {
+    margin: auto;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.box {
+    text-align: center;
+}
+
+.user_pagination {
+    margin: right: auto;
+    position: relative;
+}
+
+.dropdow_left {
+    margin: right: auto;
+    position: relative;
+}
+
+.pagination_img {
+    border: 1px;
+}
+
+.search {
+    height: 100px;
+    padding: 50px 0;
+}
+
+.centro {
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.imagen_contenido {
+    display: inline-block;
+    width: 30%;
+}
+
+.contenido {
+    display: inline-block;
+    float: right;
+    width: 70%;
+}
+
+.red {
+    background-color: red;
+}
+
+.vio {
+    background-color: violet;
+}
+
+.green {
+    background-color: green;
+}
+
+.padding {
+    margin: 30px;
+}
+
+.altura_normal {
+    height: 300px;
+}
+
+.altura_extendido {
+    height: 600px;
+}
+
+.page {
+    width: fit-content;
+}
+
+.contenedor {
+    margin: 20px auto 0 auto;
+    position: relative;
+    width: 80%;
+}
+
+.imagen {
+    height: 137px;
+    width: 137px;
+}
+
+.objeto {
+    margin-top: 30px;
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer {
+    background: #323033 !important;
+}
+
+#footer h5 {
+    padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+    padding: 3px 0;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+    font-size: 25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+    color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+    color: #eeeeee;
+}
+
+#footer ul.quick-links li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+    margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+.respuesta {
+    margin: left;
+    margin-top: 60px;
+    height: 60px;
+}
+
+.pagination2 {
+    margin: auto;
+    margin-top: 80px;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: red;
+}
+
+.mother {}
+
+.notpadding {
+    padding-left: 0;
+    padding-right: 0;
+    padding: 0;
+    padding-top: 0;
+}
+
+.notmargin {
+    margin-top: 0;
+}
+
+.notborder {
+    border-top: 0;
+}

@@ -1,0 +1,9 @@
+#boton {
+    height: 20px;
+    width: 60px;
+}
+
+.bloque {
+    display: inline-block;
+    margin-right: 20px;
+}

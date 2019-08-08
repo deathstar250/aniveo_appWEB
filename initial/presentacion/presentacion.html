@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+    <title>Aniveo Multimedia</title>
+    <link rel="icon" sizes="57x57" href="../../common_source/aniveo_icon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="../source_initial/presentacion.css" rel="stylesheet">
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+</head>
+
+<body cz-shortcut-listen="true">
+    <video poster="" id="bgvid" playsinline autoplay muted loop>
+      <source src="http://thenewcode.com/assets/videos/after.webm" type="video/webm">
+      <source src="http://thenewcode.com/assets/videos/after.mp4" type="video/mp4">
+    </video>
+    <nav class="navbar navbar-light bg-transparent">
+        <form class="form-inline">
+            <a href="../login/Aniveo_Login.html" class="btn  btn-sm active btn-color un conf shadow-lg p-1 mb-5 rounded" role="button" aria-pressed="true" onclick=reg()>Iniciar Sesion</a> &nbsp;&nbsp;
+            <a href="../registro/Aniveo_Reg.html" class="btn  btn-sm active btn-color un out shadow-lg p-1 mb-5 rounded" role="button" aria-pressed="true">Registrarse</a>
+        </form>
+    </nav>
+    <div id="login">
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-8">
+                    <div class="login-box col-md-12 shadow-lg p-3 mb-6 bg rounded ">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-primary"><img class="align-self-center mr-3" src="../source_initial/aniveoLG.png" alt="Generic placeholder image"></h3>
+                            <div class="form-group">
+                                <h3 class="g">Quienes somos?</h3>
+
+                                <p for="NUsr" class="text-color text-left h6 in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis nulla, consectetur vel posuere sed, iaculis nec magna. Fusce eget volutpat turpis, congue eleifend dolor. Mauris viverra volutpat magna ut volutpat. Cras
+                                    gravida tortor risus, nec molestie augue fringilla sed. Sed nec aliquet dui. Curabitur tempus dui elit, ut egestas nisi tempor sed. Phasellus elementum pulvinar pulvinar. Suspendisse iaculis imperdiet diam pellentesque
+                                    hendrerit. Maecenas ultricies, neque non pretium commodo, risus orci porttitor justo, interdum hendrerit turpis orci quis massa. Praesent velit risus, fermentum ac justo at, tincidunt euismod mauris. Donec vitae faucibus
+                                    enim. Etiam eget mauris ante. Curabitur condimentum ut lacus eu placerat. Praesent viverra rutrum justo, ac sollicitudin tortor lobortis eu.</p>
+                                <h3 class="g">Que hacemos?</h3>
+                                <p for="Nombre" class="text-color text-left h6 in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis nulla, consectetur vel posuere sed, iaculis nec magna. Fusce eget volutpat turpis, congue eleifend dolor. Mauris viverra volutpat magna ut volutpat. Cras
+                                    gravida tortor risus, nec molestie augue fringilla sed. Sed nec aliquet dui. Curabitur tempus dui elit, ut egestas nisi tempor sed. Phasellus elementum pulvinar pulvinar. Suspendisse iaculis imperdiet diam pellentesque
+                                    hendrerit. Maecenas ultricies, neque non pretium commodo, risus orci porttitor justo, interdum hendrerit turpis orci quis massa. Praesent velit risus, fermentum ac justo at, tincidunt euismod mauris. Donec vitae faucibus
+                                    enim. Etiam eget mauris ante. Curabitur condimentum ut lacus eu placerat. Praesent viverra rutrum justo, ac sollicitudin tortor lobortis eu.
+
+                                </p>
+                                <h3 class="g">Porqué lo hacemos?</h3>
+                                <p for="Nombre" class="text-color text-left h6 in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis nulla, consectetur vel posuere sed, iaculis nec magna. Fusce eget volutpat turpis, congue eleifend dolor. Mauris viverra volutpat magna ut volutpat. Cras
+                                    gravida tortor risus, nec molestie augue fringilla sed. Sed nec aliquet dui. Curabitur tempus dui elit, ut egestas nisi tempor sed. Phasellus elementum pulvinar pulvinar. Suspendisse iaculis imperdiet diam pellentesque
+                                    hendrerit. Maecenas ultricies, neque non pretium commodo, risus orci porttitor justo, interdum hendrerit turpis orci quis massa. Praesent velit risus, fermentum ac justo at, tincidunt euismod mauris. Donec vitae faucibus
+                                    enim. Etiam eget mauris ante. Curabitur condimentum ut lacus eu placerat. Praesent viverra rutrum justo, ac sollicitudin tortor lobortis eu.
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>s
