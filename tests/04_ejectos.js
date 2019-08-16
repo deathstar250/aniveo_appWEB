@@ -1,7 +1,8 @@
 $(document).ready(function () {
     
     //1
-
+    //
+    
     $("#box").hide();
     
     $("#show_button").click(function (e) { 
